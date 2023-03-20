@@ -1,3 +1,7 @@
+html {
+    font-family: Helvetica;
+}
+
 header {
     background-color: darkcyan;
 }
@@ -6,7 +10,7 @@ header .inner {
     display: flex;
     justify-content: space-between;
     column-gap: 1em;
-    height: 2em;
+    height: 4em;
     align-items: center;
 }
 
@@ -29,7 +33,6 @@ header nav ul li a:hover {
 }
 
 .inner {
-    
     width: 75%;
     margin: 0 auto;
 }
@@ -39,11 +42,79 @@ header nav ul li a:hover {
     height: 300px;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 footer {
     background-color: darkcyan;
+    
+    margin: 0 auto;
+    
+}
+
+.image {
+    background-color: darkgrey;
+    height: 20em;
+    margin: 0 auto;
+}
+
+.image-ref {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    height: 4em;
+    align-items: center;
+    
+}
+
+.hero-ref {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    height: 4em;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    background-color: darkgrey;
+    padding: 0.2em 0.5em;
+    height: 8em;
+}
+
+.events-img {
+    background-color: rgb(102, 102, 102);
+}
+
+.events-text {
+    background-color: rgb(102, 102, 102);
+}
+
+
+h1 {
+    font-size: 34px;
+    padding: 0.4em 0.5em;
+}
+
+h2 {
+    font-size: 28px;
+    padding: 0.4em 0.5em;
+}
+
+h3 {
+    font-size: 22px;
+    padding: 0.4em 0.5em;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6{
+
 }

@@ -1,5 +1,6 @@
 html {
     font-family: Helvetica;
+    font-size: 16px;
 }
 
 header {
@@ -39,7 +40,12 @@ header nav ul li a:hover {
 
 .hero {
     background-color: darkgrey;
-    height: 300px;
+    height: 25em;
+}
+
+.mission {
+    text-align: center;
+    padding: 0% 10% 0% 10%;
 }
 
 footer {
@@ -78,33 +84,75 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1em;
-    background-color: darkgrey;
-    padding: 0.2em 0.5em;
-    height: 8em;
+    row-gap: 1em;
+    padding: 0% 10% 0% 10%;
+    /* background-color: darkgray; */
+    justify-content: space-between;
+    
 }
 
-.events-img {
-    background-color: rgb(102, 102, 102);
+.event-img {
+    background-color: #747474;
+    height: 12em;
 }
 
-.events-text {
-    background-color: rgb(102, 102, 102);
+.event-text {
+    background-color: crimson;
+    padding: 0.4em 0.5em;
 }
 
+.about {
+    align-items: center;
+}
+
+.about ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 1em;
+    row-gap: 1.5em;
+    align-items: center;
+    text-align: center;
+}
+
+.about ul li {
+    background-color: #747474;
+
+}
+
+.portrait {
+
+}
+
+.middle {
+    display: grid;
+    justify-items: center;
+}
+
+.partners ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 1em;
+    height: 4em;
+    align-items: center;
+    text-align: center;
+}
 
 h1 {
-    font-size: 34px;
+    font-size: 2em;
     padding: 0.4em 0.5em;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 1.8em;
     padding: 0.4em 0.5em;
 }
 
 h3 {
-    font-size: 22px;
-    padding: 0.4em 0.5em;
+    font-size: 1.5em;
+    padding: 0.4em 0.2em;
 }
 
 h4 {
@@ -117,4 +165,8 @@ h5 {
 
 h6{
 
+}
+
+p{
+    padding: 0.5em;
 }

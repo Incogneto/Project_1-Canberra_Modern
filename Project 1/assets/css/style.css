@@ -212,8 +212,13 @@ footer {
     height: 4em;
     align-items: top;
     text-align: left;
-    padding: 0% 0% 10% 0%;
+    padding: 2% 0% 10% 0%;
 }
+
+.navinfo {
+    row-gap: 1em;
+}
+
 
 
 h1 {

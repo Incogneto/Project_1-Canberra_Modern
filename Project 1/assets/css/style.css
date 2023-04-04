@@ -209,31 +209,35 @@ footer {
     grid-template-rows: 1fr 1fr;
     justify-content: space-between;
     column-gap: 1em;
-    height: 4em;
+    row-gap: .5em;
+    /* height: 4em; */
     align-items: top;
     text-align: left;
-    padding: 2% 0% 10% 0%;
+    padding: 2% 0% 5% 0%;
 }
 
-.navinfo {
-    row-gap: 1em;
+.smallprint {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
 }
 
 
 
 h1 {
     font-size: 2em;
-    padding: 0.4em 0.5em;
+    padding: 0.4em 0.2em;
 }
 
 h2 {
     font-size: 1.8em;
-    padding: 0.4em 0.5em;
+    padding: 0.3em 0.2em;
 }
 
 h3 {
     font-size: 1.5em;
-    padding: 0.4em 0.2em;
+    padding: 0.2em 0.2em;
 }
 
 h4 {
@@ -241,7 +245,8 @@ h4 {
 }
 
 h5 {
-
+    font-size: .8em;
+    padding: 0.2em 0.2em;
 }
 
 h6{

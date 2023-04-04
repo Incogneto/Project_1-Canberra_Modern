@@ -6,6 +6,7 @@ html {
 
 header {
     background-color: darkcyan;
+    position: sticky; top: 0;
 }
 
 header .inner {
@@ -206,21 +207,21 @@ footer {
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     justify-content: space-between;
     column-gap: 1em;
-    row-gap: .5em;
+    row-gap: 1em;
     /* height: 4em; */
     align-items: top;
     text-align: left;
-    padding: 2% 0% 5% 0%;
+    padding: 1% 0% 5% 0%;
 }
 
 .smallprint {
     display: grid;
     align-items: center;
     text-align: center;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 
@@ -241,7 +242,8 @@ h3 {
 }
 
 h4 {
-
+    font-size: 1.2em;
+    padding: 0.2em 0.2em;
 }
 
 h5 {

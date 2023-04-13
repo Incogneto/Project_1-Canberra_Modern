@@ -1,11 +1,11 @@
 html {
     font-family: Helvetica;
     font-size: 16px;
-    background-color: rgb(122, 122, 122);
+    /* background-color: rgb(122, 122, 122); */
 }
 
 header {
-    background-color: darkcyan;
+    background-color: #fff;
     position: sticky; top: 0;
 }
 
@@ -41,8 +41,12 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-color: darkgrey;
-    height: 25em;
+    background-image: url(../images/287.jpg);
+    height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mission {
@@ -51,16 +55,25 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-color: darkcyan;
-    
+    background-color: #000;
+    color: #fff;    
     margin: 0 auto;
     
 }
 
 .image {
-    background-color: darkgrey;
-    height: 20em;
-    margin: 0 auto;
+    /* background-color: #756666; */
+    height: 25em;
+}
+
+.fill {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 .image-ref {
@@ -86,45 +99,59 @@ footer {
     display: grid;
     grid-template-columns: 2fr 2fr;
     column-gap: 1em;
-    row-gap: 2em;
-    padding: 0% 5% 10% 5%;
+    row-gap: 1em;
+    padding: 2% 2% 10% 2%;
     /* background-color: darkgray; */
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    /* background-color: #756666;  */
+
 }
 
 .event-img {
-    background-color: #c0c0c0;
+    /* background-color: #c0c0c0; */
     height: 12em;
 }
 
 .event-text {
-    background-color: crimson;
+    /* background-color: crimson; */
     padding: 0.4em 0.5em;
 }
 
 
 
 .involve-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-rows: 1fr 1fr; */
     justify-content: space-between;
-    column-gap: 1em;
-    row-gap: 1em;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 10% 10% 10%;
 }
 
 .involve-box div ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1fr 1fr; */
     justify-content: space-between;
-    column-gap: 1em;
-    row-gap: .5em;
     /* height: 4em; */
     align-items: center;
-    text-align: right;
+    text-align: center;
+    padding: 0% 0% 5% 0%;
+}
+
+input {
+    border: none;
+    height: 100%;
+    outline: 0;
+    width: 70%;
+    border-radius: calc(0.5 * 3em);
+    padding: 0% 5% 3% 5%;
+}
+
+
+
+.youget {
+    text-align: center;
+    padding: 0% 0% 5% 0%;
 }
 
 /* .button {
@@ -141,10 +168,10 @@ footer {
     background-color: #fff;
 } */
 
-.involve-box div {
+/* .involve-box div {
     background-color: #866d6d;
     
-}
+} */
 
 
 
@@ -168,9 +195,12 @@ footer {
     
 }
 
-.about ul div li {
-    background-color: #c0c0c0;
-    
+.about ul div li img {
+    border-radius: 100%;
+    max-width: 10em;
+    max-height: 10em;
+    min-width: 10em;
+    min-height: 10em;
 }
 
 .about ul div{
@@ -194,14 +224,30 @@ footer {
     grid-template-rows: 1fr 1fr;
     justify-content: space-between;
     column-gap: 1em;
-    height: 4em;
+    row-gap: 1em;
+    height: auto;
     align-items: center;
     text-align: center;
     padding: 0% 0% 10% 0%;
 }
 
 .partners ul li {
-    background-color: #c0c0c0;
+    /* background-color: #c0c0c0; */
+}
+
+.logo {
+    height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/287.jpg);
+
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .nav {
@@ -217,12 +263,49 @@ footer {
     padding: 1% 0% 5% 0%;
 }
 
+.navinfo {
+    display: grid;
+    row-gap: 1em;
+}
+
 .smallprint {
     display: grid;
     align-items: center;
     text-align: center;
     /* padding: 1em; */
+    padding: 2% 0% 2% 0%;
 }
+
+/* focus display start */
+
+.header {
+    padding: 10% 0% 10% 0%;
+    text-align: center;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 1em;
+    row-gap: 1em;
+    padding: 2% 2% 10% 2%;
+    /* background-color: darkgray; */
+    justify-content: space-between; 
+    /* background-color: #756666;  */
+
+}
+
+.event-img {
+    /* background-color: #c0c0c0; */
+    height: 12em;
+}
+
+.event-text {
+    /* background-color: crimson; */
+    padding: 0.4em 0.5em;
+}
+
+/* focus display end */
 
 
 
@@ -257,4 +340,11 @@ h6{
 
 p{
     padding: 0.5em;
+}
+
+hr {
+    width: 60%;
+    /* border: 1px solid#000; */
+    /* border-radius: 50%; */
+
 }

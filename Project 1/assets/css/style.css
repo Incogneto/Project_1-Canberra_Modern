@@ -7,6 +7,7 @@ html {
 header {
     background-color: #fff;
     position: sticky; top: 0;
+    z-index:9999
 }
 
 header .inner {
@@ -259,6 +260,8 @@ input {
 
 }
 
+/* navigation display start */
+
 .navbar {
     width: 90%;
     margin: 0 auto;
@@ -274,7 +277,7 @@ input {
     /* height: 4em; */
     align-items: top;
     text-align: left;
-    padding: 1% 0% 5% 0%;
+    padding: 5% 0% 5% 0%;
 }
 
 .navinfo {
@@ -302,6 +305,8 @@ input {
     /* padding: 1em; */
     padding: 2% 0% 2% 0%;
 }
+
+/* navigation display end */
 
 /* building-template display start */
 
@@ -349,8 +354,171 @@ input {
 /* building-option display start */
 
 .building-op {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0% 0% 10% 0%;
+    row-gap: .5em;
+    column-gap: .5em;
 }
+
+.building-op div {
+    background-color: aquamarine;
+    height: 20em;
+}
+
+.building-op div:hover {
+    filter: grayscale(80%);
+}
+
+.building-op div {
+    background-color: #a88f8f;
+    min-height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+.building-op div h3 {
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+
+.building-op div:hover h3 {
+   display: block;
+}
+
+.credits {
+    padding: 0% 0% 10% 0%;
+}
+
+.thanks {
+    text-align: center;
+    padding: 0% 0% 5% 0%;
+}
+
+.names {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* building images start */
+.building-op .nla {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .uh {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .ch {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .uv {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .co {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .gps {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .ebb {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .cs {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .cmb {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .awma {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .aas {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .tbh {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .aiah {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .jc {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .aph {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .tt {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .ape {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .hca {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.building-op .shh {
+    background-image: url(../images/287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* building images end */
 
 /* building-option display end */
 
@@ -387,7 +555,8 @@ h6{
 }
 
 p{
-    padding: 0.5em;
+    padding: .5em;
+    line-height: 1.6;
 }
 
 hr {

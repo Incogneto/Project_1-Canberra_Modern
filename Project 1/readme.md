@@ -1,15 +1,5 @@
-2023/02/09 - 18:20
-
-Status: #Uni
-Tags: [[uni]] [[design]] [[Website]]
-
-# Website Creation
-
-### the website we are to recreate 
-https://canberramodern.com/
-
-
-### What could be done with it?
+Project 1: Responsive Website - 11056
+By Jesse Groch
 
 
 ### Introduction
@@ -78,18 +68,3 @@ I have not been good at task management this semester, which has lead to a slipp
 - Implement the colour system for the building option page (trying to make this part work caused me to scrap the page 3 times)
 - Fix the sign-up section on the main page
 
-
-
-
-
-
-
-
-
-
-
-
----
-# References
-
-https://canberramodern.com/

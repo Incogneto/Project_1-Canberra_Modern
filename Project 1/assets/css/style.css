@@ -22,7 +22,6 @@ header .inner {
 header nav ul li {
     display: inline;
     margin-left: 0.2em;
-  
 }
 
 header nav ul li a {
@@ -31,38 +30,16 @@ header nav ul li a {
     background-color: #000;
     padding: 0.2em 0.5em;
     text-transform: none;
-    border-radius: 20px;
 }
 
-.off {
+header nav ul li a:hover {
     color: #000;
     background-color: #fff;
-}
-
-.event:hover {
-    color: #000;
-    background-color: #fae382;
-}
-
-.build:hover {
-    color: #000;
-    background-color: #7087c2;
-}
-
-.resource:hover {
-    color: #000;
-    background-color: #f27075;
-}
-
-.home:hover {
-    color: #000;
-    background-color: #eda385;
 }
 
 .name :hover {
     color: #fff;
     background-color: #000;
-    border-radius: 40px;
 }
 
 .name a {
@@ -73,8 +50,6 @@ header nav ul li a {
     text-transform: none;
 }
 
-
-
 /* header end */
 
 .inner {
@@ -83,7 +58,7 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url(../images/co-hero.jpg);
+    background-image: url(../images/287.jpg);
     height: 30em;
     background-attachment: fixed;
     background-position: center;
@@ -122,16 +97,9 @@ footer {
     justify-content: space-between;
     column-gap: 1em;
     height: 4em;
-    align-items: center;   
-}
+    align-items: center;
 
-.hero-name {
-    color: #fff;
-    text-decoration: none;
-    background-color: #000;
-    padding: 0.4em .8em;
-    text-transform: none;
-    border-radius: 20px;
+    
 }
 
 .hero-ref {
@@ -149,8 +117,8 @@ footer {
 .events {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    column-gap: .2em;
-    row-gap: 2.5em;
+    column-gap: 1em;
+    row-gap: 1em;
     padding: 2% 2% 10% 2%;
     justify-content: space-between; 
 }
@@ -186,9 +154,6 @@ input {
     width: 70%;
     border-radius: calc(0.5 * 3em);
     padding: 0% 5% 3% 5%;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 40px;
 }
 
 .youget {
@@ -227,7 +192,6 @@ input {
 .about ul div{
     display: grid;
     row-gap: 1em;
-    column-gap: 1em;
 }
 
 .middle {
@@ -241,17 +205,13 @@ input {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: space-between;
-    column-gap: 4em;
-    row-gap: 4em;
+    column-gap: 1em;
+    row-gap: 1em;
     height: auto;
     align-items: center;
     text-align: center;
     padding: 0% 0% 10% 0%;
 }
-
-/* .partners ul li {
-    height: 8em;
-} */
 
 /* about page end */
 
@@ -261,7 +221,7 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/cm-logo.png);
+    background-image: url(../images/287.jpg);
 
 }
 
@@ -313,7 +273,7 @@ input {
 /* building-template display/page start */
 
 .header {
-    padding: 1em 0em 2em 0em;
+    padding: 10% 0% 10% 0%;
     text-align: center;
 }
 
@@ -357,14 +317,14 @@ input {
 
 .building-op {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0% 0% 10% 0%;
     row-gap: .5em;
     column-gap: .5em;
 }
 
 .building-op div {
-    text-decoration: none;
+    background-color: aquamarine;
     height: 20em;
 }
 
@@ -379,15 +339,12 @@ input {
     align-items: center;
     justify-content: center; 
     text-align: center;
-    text-decoration: none;
 }
 
 .building-op div h3 {
     text-decoration: none;
-    color: #ffffff;
-    background-color: #000;
+    color: #fff;
     display: none;
-
 }
 
 .building-op div:hover h3 {
@@ -410,121 +367,115 @@ input {
 
 /* building images start */
 .building-op .nla {
-    background-image: url(../images/nla.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .uh {
-    background-image: url(../images/uh.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .ch {
-    background-image: url(../images/ch.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .uv {
-    background-image: url(../images/uv.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .co {
-    background-image: url(../images/co.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .gps {
-    background-image: url(../images/gps.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.building-op .sm {
-    background-image: url(../images/sm.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .ebb {
-    background-image: url(../images/ebb.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .cs {
-    background-image: url(../images/cs.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .cmb {
-    background-image: url(../images/cmb.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .awma {
-    background-image: url(../images/awma.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .aas {
-    background-image: url(../images/aas.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .tbh {
-    background-image: url(../images/tbh.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .aiah {
-    background-image: url(../images/aiah.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .jc {
-    background-image: url(../images/jc.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .aph {
-    background-image: url(../images/aph.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .tt {
-    background-image: url(../images/tt.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .ape {
-    background-image: url(../images/ape.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .hca {
-    background-image: url(../images/hca.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .building-op .shh {
-    background-image: url(../images/shh.jpg);
+    background-image: url(../images/287.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -659,13 +610,10 @@ hr {
 
 @media screen and (max-width: 900px) {
     .building-op {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .inner {
         width: 90%;
-    }
-    .n-events ul {
-        grid-template-columns: 1fr;   
     }
 }
 
@@ -698,6 +646,7 @@ hr {
     .building-op {
         grid-template-columns: 1fr 1fr;
     }
+    
 
 }
 

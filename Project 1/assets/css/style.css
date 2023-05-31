@@ -351,6 +351,34 @@ input {
 
 }
 
+.nav-name {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 0.4em .8em;
+    text-transform: none;
+    border-radius: 20px;
+}
+
+.nav-ref {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    height: 4em;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav-ref li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 0.2em 0.5em;
+    text-transform: none;
+    border-radius: 20px;
+}
+
 /* building-template display/page end */
 
 /* building-option display/page start */
